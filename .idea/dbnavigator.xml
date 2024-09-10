@@ -13,7 +13,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="011d8565-f62c-4db2-b413-86da1e561e75">
-      <console name="localMySQL" type="STANDARD" schema="belajar_restfull_api" session="Main"><![CDATA[use belajar_restfull_api]]></console>
+      <console name="localMySQL" type="STANDARD" schema="belajar_restfull_api" session="Main"><![CDATA[use belajar_restfull_api
+
+SELECT COUNT(*) FROM `belajar_restfull_api`.`users`(SELECT `belajar_restfull_api`.`users`.`username` FROM `belajar_restfull_api`.`users` WHERE `belajar_restfull_api`.`users`.`username` = 'adam');]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -21,6 +23,9 @@
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="011d8565-f62c-4db2-b413-86da1e561e75" dataset="belajar_restfull_api.contacts" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
